@@ -1,3 +1,16 @@
-@media screen and(max-width:600){
+/*On mobile*/
+@media screen and (max-width: 600px) {
+    * {
+        height: -moz-fit-content;
+        height: fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        
+    }
+
+    body{
+        font-size: smaller;
+    }
+
     
 }

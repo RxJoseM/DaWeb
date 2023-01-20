@@ -17,6 +17,9 @@ li a.navlist{
     padding: 14px 16px;
     text-decoration: none;
 }
+li a.navlist:hover {
+    background-color: #111;
+  }
 
 footer {
     position: fixed;

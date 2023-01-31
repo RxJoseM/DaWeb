@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>RxWeb</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/Icons/favicon.ico?">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap" rel="stylesheet"/>
     
-    <head>
-        <title>RxWeb</title>
-        <link rel="shortcut icon" type="image/x-icon" href="./srcs/Icons/favicon.ico?">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <div class="vidBackground">
-        <iframe width="100%" height="100%" title="intro 4k" src="https://www.youtube-nocookie.com/embed/playlist?list=PL1RHllpV7UlhqxQal0I01NP2LWerx-JDR&loop=1&controls=0&showinfo=0&autohide=1&mute=1&autoplay=1" allow="autoplay;"></iframe>
-    </div>
+  </head>
+  <div class="vidBackground">
+    <iframe width="100%" height="100%" title="intro 4k" src="https://www.youtube-nocookie.com/embed/playlist?list=PL1RHllpV7UlhqxQal0I01NP2LWerx-JDR&loop=1&controls=0&showinfo=0&autohide=1&mute=1&autoplay=1" allow="autoplay;"></iframe>
+</div>
+  <nav>
     <!--Navigation Bar-->
     <ul class="flexy navBar">
-        <li class="navlista"><a href="index.html" class="active navlist">Home</a></li>
-        <li class="navlista"><a href="./aboutMe.html" class="navlist">About me</a></li>
-        <li class="navlista"><a href="./projects.html" class="navlist">Projects</a></li>
-        <li class="navlista"><a href="./donations.html" class="navlist">Donation?</a></li>
+      <li class="navlista"><a href="index.html" class="active navlist">Home</a></li>
+      <li class="navlista"><a href="./aboutMe.html" class="navlist">About me</a></li>
+      <li class="navlista"><a href="./projects.html" class="navlist">Projects</a></li>
+      <li class="navlista"><a href="./donations.html" class="navlist">Donation?</a></li>
+      <li class="navlista"><a href="./partners.html" class="navlist">Partners</a></li>
     </ul>
-    <!--End of Navigation Bar-->
-    <body>
-        
-
-        <h1>Welcome to the RxFamily web site</h1>
+  </nav>
+  <body>
+    <main>
+        <h1 class="th1">Welcome to RxFamily's Website</h1>
         <p>My oficial online site, I made it my self, and I'm proud of it.<br>
-            contact me on my socials if you find any glitch/bug</p>
+            please, contact me on my socials if you find any glitch/bug</p>
         
         <!--Footer-->
-    <footer class="container-fluid text-center">
-        <p>
-            Thanks for taking your time to visit my webpage.<br> My Socials:
-            <strong>
-                <a rel="noopener noreferrer" class="f" target="_blank" href="https://www.facebook.com/profile.php?id=100017849341528&viewas=100000686899395">Facebook</a> <a rel="noopener noreferrer" class="in" target="_blank" href="https://www.instagram.com/rxjosem/">Instagram</a> <a rel="noopener noreferrer" class="t" target="_blank" href="https://twitter.com/JoseMar80077138">Twitter</a>
-                <a rel="noopener noreferrer" class="l" target="_blank" href="https://www.linkedin.com/in/jose-marrero-065412183/">LinkedIn</a> <a rel="noopener noreferrer" class="y" target="_blank" href="https://www.youtube.com/channel/UCib2b57jhEmFozKQIutD7TA">Youtube</a>
-            </strong>
-        </p>
-    </footer>
-    </body>
-    <!--slider-->
-    <div class="slider"></div>
+        <footer class="container-fluid text-center">
+          <p>
+              Thanks for taking your time to visit my webpage.<br> My Socials:
+              <strong>
+                  <a rel="noopener noreferrer" class="f" target="_blank" href="https://www.facebook.com/profile.php?id=100017849341528&viewas=100000686899395">Facebook</a>
+                  <a rel="noopener noreferrer" class="in" target="_blank" href="https://www.instagram.com/rxjosem/">Instagram</a>
+                  <a rel="noopener noreferrer" class="t" target="_blank" href="https://twitter.com/JoseMar80077138">Twitter</a>
+                  <a rel="noopener noreferrer" class="l" target="_blank" href="https://www.linkedin.com/in/jose-marrero-065412183/">LinkedIn</a>
+                  <a rel="noopener noreferrer" class="y" target="_blank" href="https://www.youtube.com/channel/UCib2b57jhEmFozKQIutD7TA">Youtube</a>
+              </strong>
+          </p>
+        </footer>
+      
+    </main>
+  </body>
+  <div id="el">
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">Welcome to</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">RxFamily's</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">Website</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div></div>
+    
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
 </html>

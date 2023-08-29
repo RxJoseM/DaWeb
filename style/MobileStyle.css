@@ -1,16 +1,14 @@
-/*On mobile*/
+/* On mobile */
 @media screen and (max-width: 600px) {
     * {
-        height: -moz-fit-content;
-        height: fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        
+      height: -moz-fit-content;
+      height: fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
     }
-
-    body{
-        font-size: smaller;
+  
+    body {
+      font-size: smaller;
     }
-
-    
-}
+  }
+  

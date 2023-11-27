@@ -36,7 +36,10 @@
             
             </li>
             
-            
+            <li class="navlista">
+                <a href="./login.php" class="navlist">Login</a>
+            </li>
+        
             
         </ul>
         
@@ -55,23 +58,28 @@
 
         <ul class="circleImg-list">
             <li class="img-item">
-                <a aria-label="Facebook" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/profile.php?id=100017849341528&viewas=100000686899395">
+                <a aria-label="Facebook" rel="noopener noreferrer" target="blank"
+                href="https://www.facebook.com/profile.php?id=100017849341528&viewas=100000686899395">
                     <img src="./assets/images/FB_icon.png" alt=""></a>
             </li>
             <li class="img-item">
-                <a aria-label="Instagram" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/rxjosem/">
+                <a aria-label="Instagram" rel="noopener noreferrer" target="_blank"
+                href="https://www.instagram.com/rxjosem/">
                     <img src="./assets/images/IG_icon.jpg" alt=""></a>
             </li>
             <li class="img-item">
-                <a aria-label="Twitter" rel="noopener noreferrer" target="_blank" href="https://twitter.com/JoseMar80077138">
+                <a aria-label="Twitter" rel="noopener noreferrer" target="_blank"
+                href="https://twitter.com/JoseMar80077138">
                     <img src="./assets/images/X_icon.jpg" alt=""></a>
             </li>
             <li class="img-item">
-                <a aria-label="Linkedin" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/jose-marrero-065412183/">
+                <a aria-label="Linkedin" rel="noopener noreferrer" target="_blank"
+                href="https://www.linkedin.com/in/jose-marrero-065412183/">
                     <img src="./assets/images/Lin_icon.jpg" alt=""></a>
             </li>
             <li class="img-item">
-                <a aria-label="YouTube" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UCib2b57jhEmFozKQIutD7TA">
+                <a aria-label="YouTube" rel="noopener noreferrer" target="_blank"
+                href="https://www.youtube.com/channel/UCib2b57jhEmFozKQIutD7TA">
                     <img src="./assets/images/YT_icon.jpg" alt=""></a>
             </li>
             

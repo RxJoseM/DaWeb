@@ -1,0 +1,31 @@
+@import url(./navBar.css);
+
+@font-face {
+    font-family: Pixelify-Sans;
+    src: url(/assets/fonts/PixelifySans-VariableFont_wght.ttf);
+}
+/* Basic CSS for styling */
+* {
+    background-repeat: no-repeat;
+    font-family: Pixelify-Sans, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(82, 82, 82);
+}
+
+header {
+    display: flex;
+    
+}
+
+.texto {
+    color: black; 
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+}

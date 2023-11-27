@@ -1,0 +1,70 @@
+/* Navigation Bar Styles */
+nav{
+    color: #333;
+    width: 100%;
+  }
+  ul.navBar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0;
+  }
+  
+  li.navlista {
+    float: left;
+  }
+  
+  li a.navlist {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 1vh;
+    text-decoration: none;
+  }
+  
+  a.navlist:hover {
+    background-color: #111;
+  }
+  
+  a.active{
+    background-color: rgb(82, 82, 82);
+  }
+  
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  /* circle images */
+  .circleImg-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0% 1%;
+    }
+    
+  .img-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+  .img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+  
